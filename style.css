@@ -23,13 +23,13 @@ body {
   display: flex;
   width: 40%;
   flex-direction: row;
-  margin-top: 78px;
-  margin-left: 80px;
+  margin-top: 4.875rem;
+  margin-left: 5rem;
 }
 .navbar-content a {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-right: 73px;
+  margin-right: 4.563rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.884);
 }
@@ -39,9 +39,9 @@ body {
 }
 .navbar h3 {
   font-style: normal;
-  font-size: 28px;
-  margin-left: 0px;
-  margin-top: 68px;
+  font-size: 1.75rem;
+  margin-left: 0rem;
+  margin-top: 4.25rem;
 }
 .navbar #pre {
   color: rgba(66, 64, 64, 0.603);
@@ -54,66 +54,66 @@ body {
 
 .first-page {
   position: relative;
-  height: 81vh;
+  height: 88vh;
   width: 100%;
 }
 .first-page img {
   position: absolute;
-  width: 570px;
-  height: 544px;
+  width: 35.625rem;
+  height: 34rem;
   top: 7%;
   left: 68%;
   z-index: -1;
 }
 
 .first-page-content {
-  padding-left: 80px;
-  padding-top: 120px;
+  padding-left: 5rem;
+  padding-top: 11.25rem;
 }
 .first-page-content h1 {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
 }
 .first-page-content h2 {
-  padding-top: 38px;
+  padding-top: 2.375rem;
 }
 .first-page-content span {
   color: #de5f17;
 }
 .first-page-content #high-price {
-  font-size: 48px;
+  font-size: 3rem;
   color: rgba(138, 124, 124, 0.7);
   text-decoration: line-through;
   text-decoration-style: solid;
   text-decoration-color: rgba(138, 124, 124, 0.6);
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 .first-page-content h3 {
-  padding-top: 38px;
-  font-size: 20px;
+  padding-top: 2.375rem;
+  font-size: 1.25rem;
 }
 .first-page-content #drop-price {
   color: black;
   opacity: 100%;
-  font-size: 55px;
-  padding-left: 10px;
+  font-size: 3.438rem;
+  padding-left: 0.625rem;
 }
 
 .front-page-btn {
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 #try-btn {
   color: white;
-  height: 64px;
+  height: 4rem;
   width: 266px;
   background-color: #de5f17;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   justify-content: center;
   text-align: center;
   font-size: 24px;
   font-style: normal;
-  box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664);
+  box-shadow: 0.25rem 0.625rem 1.875rem rgba(133, 129, 129, 0.664);
 }
 
 /* Page 2 Section */
@@ -129,68 +129,77 @@ body {
   display: flex;
   flex-direction: row;
   width: auto;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .sec-card {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  margin-right: 3.125rem;
   /* background-color: red; */
-  width: 200px;
+  width: 12.5rem;
   border: none;
 
-  border-radius: 40px;
-  height: 140px;
+  border-radius: 2.5rem;
+  height: 12.5rem;
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664);
+  box-shadow: 0.25rem 0.625rem 1.875rem rgba(133, 129, 129, 0.664);
 }
 .sec-card h4 {
   color: black;
   font-size: 16;
   font-weight: 400;
-  padding-top: 5px;
+  padding-top: 0.313rem;
 }
 
 .sec-card img {
   width: auto;
-  height: 40px;
-  padding-bottom: 3px;
+  height: 2.5rem;
+  padding-bottom: 0.188rem;
 }
 
 /* Page 3 */
 
 .page-3-container {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   height: 80vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-3-txt h2 {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
 .page-3-txt #page-3-sub {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: bold;
-  /* margin-right: 10px; */
+  /* margin-right: 0.625rem; */
 }
 .page-3-info {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .page-3-img {
-  margin-top: 100px;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+  
+  /* margin-left: 1.425rem; */
+  /* margin-right: 1.425rem;  */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
 }
 .page-3-img img {
-  width: 250px;
-  height: 239px;
-  margin: 0px 10px;
+  width: 15.125rem;
+  height: 13.938rem;
+  margin: 0rem 1.325rem; 
 }
 
 /* page 4 */
@@ -204,15 +213,15 @@ body {
   justify-content: space-evenly;
 }
 .page-4-left {
-  margin: 80px 0px;
-  border: 2px solid black;
-  border-radius: 68px;
+  margin: 5rem 0rem;
+  border: 0.125rem solid black;
+  border-radius: 4.25rem;
   height: 80vh;
   width: 25vw;
   text-align: center;
 }
 .page-4-left-container {
-  margin: 40px 0px;
+  margin: 2.5rem 0rem;
 }
 .page-4-left-card {
   display: flex;
@@ -221,51 +230,51 @@ body {
   align-items: center;
 }
 .page-4-left-card h2 {
-  line-height: 40px;
-  padding-bottom: 10px;
-  font-size: 35px;
+  line-height: 2.5rem;
+  padding-bottom: 0.625rem;
+  font-size: 2.188rem;
   font-weight: 500;
 }
 .page-4-left-card p {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .line {
   background-color: black;
   opacity: 80%;
   /* width: auto; */
-  height: 1px;
-  margin: 5px 0px;
+  height: 0.063rem;
+  margin: 0.313rem 0rem;
 }
 .page-4-right {
   background-color: white;
-  margin: 80px 0px;
-  border: 2px solid black;
-  border-radius: 68px;
+  margin: 5rem 0rem;
+  border: 0.125rem solid black;
+  border-radius: 4.25rem;
   height: 80vh;
   width: 50vw;
 }
 .page-4-right-container {
-  margin: 40px 40px;
+  margin: 2.5rem 2.5rem;
 }
 
 .page-4-right-card h1 {
   font-size: 45px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 .page-4-right-card h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
   color: rgba(20, 20, 20, 0.918);
 }
 .page-4-right-card h3 {
-  font-size: 26px;
+  font-size: 1.625rem;
   margin-bottom: 6px;
   color: rgba(20, 20, 20, 0.918);
   margin-top: 15px;
 }
 .page-4-right-card h4 {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-size: 24px;
   font-weight: 400;
 }
@@ -276,7 +285,7 @@ body {
 }
 
 .page-4-right-btn {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -284,13 +293,13 @@ body {
 }
 .page-4-right-btn input {
   height: 39px;
-  width: 120px;
-  border-radius: 30px;
-  border: 2px solid rgba(138, 124, 124, 0.7);
-  box-shadow: 4px 4px 65px rgba(138, 124, 124, 0.7);
+  width: 11.25rem;
+  border-radius: 1.875rem;
+  border: 0.125rem solid rgba(138, 124, 124, 0.7);
+  box-shadow: 0.25rem 0.25rem 65px rgba(138, 124, 124, 0.7);
   font-weight: 300;
   font-size: 16px;
-  /* margin-right: 20px; */
+  /* margin-right: 1.25rem; */
 }
 #page-4-big-btn-container {
   width: 100%;
@@ -304,12 +313,12 @@ body {
   height: 63px;
   width: 569px;
   color: white;
-  /* box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664); */
+  /* box-shadow: 0.25rem 0.625rem 1.875rem rgba(133, 129, 129, 0.664); */
   background-color: #de5f17;
   font-size: 24px;
   font-weight: 600;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   -webkit-border-radius:;
   -moz-border-radius:;
   -ms-border-radius:;
@@ -318,7 +327,7 @@ body {
 
 #page-4-big-btn:hover{
   cursor: pointer;
-  box-shadow: 5px 12px 40px rgba(133, 129, 129, 0.664);
+  box-shadow: 0.313rem 10.125rem 2.5rem rgba(133, 129, 129, 0.664);
 }
 .page-5 {
   background-color: white;
@@ -334,12 +343,12 @@ body {
   height: auto;
 }
 .page-5-container h1 {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 400;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 .page-5-container h3 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 600;
 }
 .page-5-container span {
@@ -349,8 +358,8 @@ body {
   /* background-color: #de5f17; */
 }
 .page-5-img img {
- width: 780px;
- height: 564px;
+ width: 56rem;
+ height: 42rem;
 }
 
 /* page 6 */
@@ -365,7 +374,7 @@ align-items: center;
 
 }
 .page-6-chef h1{
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 600;
   }
 .page-6-container{
@@ -380,8 +389,8 @@ align-items: center;
   width: 50%;
 }
 .page-6-container .left-container img{
-  height: 350px;
-  width: 350px;
+  height: 24.125rem;
+  width: 24.125rem;
 }
 
 .page-6-container .right-container{
@@ -397,21 +406,21 @@ align-items: center;
   font-size: 24px;
   font-weight: 300;
   color: #de5f17;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .page-6-container .right-container ul li{
   /* list-style: none; */
-  margin-top: 10px;
+  margin-top: 0.625rem;
   list-style: square;
-  font-size: 26;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 2.125rem;
 }
 .hash-btn{
   
-  border: 3px solid #de5f17;
-  height: 73px;
-  width: 406px;
+  border: 0.188rem solid #de5f17;
+  height: 4.563rem;
+  width: 25.375rem;
   border-radius: 45px;
   color: black;
   background-color: transparent;
@@ -423,7 +432,7 @@ align-items: center;
 }
 .hash-btn h5{
   padding-top: 4%;
-  font-size: 23px;
+  font-size: 1.438rem;
   font-weight: 400;
 }
 .hash-btn:hover{
@@ -443,14 +452,14 @@ height: 25vh;
   padding: 2% 2.4%;
 }
 .footer h3{
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: bold;
   margin-bottom: 0.6%;
 }
 .footer p{
   padding-top: 0.2%;
   max-width: 40%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.753);
 }

@@ -304,14 +304,22 @@ body {
   height: 63px;
   width: 569px;
   color: white;
-  box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664);
+  /* box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664); */
   background-color: #de5f17;
   font-size: 24px;
   font-weight: 600;
   border: none;
   border-radius: 30px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 
+#page-4-big-btn:hover{
+  cursor: pointer;
+  box-shadow: 5px 12px 40px rgba(133, 129, 129, 0.664);
+}
 .page-5 {
   background-color: white;
   display: flex;
@@ -418,6 +426,13 @@ align-items: center;
   font-size: 23px;
   font-weight: 400;
 }
+.hash-btn:hover{
+  color: rgba(255, 255, 255, 0.815);
+  background-color: #de5f17;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
 .footer{
   background-color: rgba(60, 188, 180, 0.83);
   color: rgba(255, 255, 255, 0.753);
@@ -442,3 +457,15 @@ height: 25vh;
 .footer-container span{
   color: rgba(20, 20, 20, 0.818);
 }
+::-webkit-scrollbar{
+  width: 0.7rem;
+}
+:body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #de5f17;
+  outline: none;
+}
+

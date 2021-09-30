@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.container{
+.container {
   max-width: 100vw;
   overflow: hidden;
 }
@@ -125,21 +125,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-.mid-sec-container{
-  
+.mid-sec-container {
   display: flex;
   flex-direction: row;
   width: auto;
   margin-left: 30px;
 }
-.sec-card{
+.sec-card {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
   /* background-color: red; */
   width: 200px;
   border: none;
-  
+
   border-radius: 40px;
   height: 140px;
   justify-content: center;
@@ -147,14 +146,14 @@ body {
   text-align: center;
   box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664);
 }
-.sec-card h4{
+.sec-card h4 {
   color: black;
-font-size: 16;
-font-weight: 400;
-padding-top: 5px;
+  font-size: 16;
+  font-weight: 400;
+  padding-top: 5px;
 }
 
-.sec-card img{
+.sec-card img {
   width: auto;
   height: 40px;
   padding-bottom: 3px;
@@ -162,7 +161,7 @@ padding-top: 5px;
 
 /* Page 3 */
 
-.page-3-container{
+.page-3-container {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -170,26 +169,276 @@ padding-top: 5px;
   height: 80vh;
 }
 
-.page-3-txt h2{
+.page-3-txt h2 {
   font-size: 56px;
   font-weight: bold;
 }
 
-.page-3-txt #page-3-sub{
+.page-3-txt #page-3-sub {
   font-size: 26px;
   font-weight: bold;
   /* margin-right: 10px; */
 }
-.page-3-info{
+.page-3-info {
   font-size: 14px;
   font-weight: normal;
   margin-left: 10px;
 }
-.page-3-img{
-margin-top: 100px;
+.page-3-img {
+  margin-top: 100px;
 }
-.page-3-img img{
+.page-3-img img {
   width: 250px;
   height: 239px;
   margin: 0px 10px;
+}
+
+/* page 4 */
+
+.page-4 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(60, 188, 180, 0.51);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.page-4-left {
+  margin: 80px 0px;
+  border: 2px solid black;
+  border-radius: 68px;
+  height: 80vh;
+  width: 25vw;
+  text-align: center;
+}
+.page-4-left-container {
+  margin: 40px 0px;
+}
+.page-4-left-card {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.page-4-left-card h2 {
+  line-height: 40px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.page-4-left-card p {
+  margin-bottom: 10px;
+}
+.line {
+  background-color: black;
+  opacity: 80%;
+  /* width: auto; */
+  height: 1px;
+  margin: 5px 0px;
+}
+.page-4-right {
+  background-color: white;
+  margin: 80px 0px;
+  border: 2px solid black;
+  border-radius: 68px;
+  height: 80vh;
+  width: 50vw;
+}
+.page-4-right-container {
+  margin: 40px 40px;
+}
+
+.page-4-right-card h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.page-4-right-card h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(20, 20, 20, 0.918);
+}
+.page-4-right-card h3 {
+  font-size: 26px;
+  margin-bottom: 6px;
+  color: rgba(20, 20, 20, 0.918);
+  margin-top: 15px;
+}
+.page-4-right-card h4 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.page-4-right-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 38, 38, 0.79);
+}
+
+.page-4-right-btn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page-4-right-btn input {
+  height: 39px;
+  width: 120px;
+  border-radius: 30px;
+  border: 2px solid rgba(138, 124, 124, 0.7);
+  box-shadow: 4px 4px 65px rgba(138, 124, 124, 0.7);
+  font-weight: 300;
+  font-size: 16px;
+  /* margin-right: 20px; */
+}
+#page-4-big-btn-container {
+  width: 100%;
+  margin-top: 75px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-4-big-btn {
+  height: 63px;
+  width: 569px;
+  color: white;
+  box-shadow: 4px 10px 30px rgba(133, 129, 129, 0.664);
+  background-color: #de5f17;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+}
+
+.page-5 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.page-5-container {
+  margin-left: 7%;
+  width: 40%;
+  height: auto;
+}
+.page-5-container h1 {
+  font-size: 56px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.page-5-container h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.page-5-container span {
+  color: #de5f17;
+}
+.page-5-img {
+  /* background-color: #de5f17; */
+}
+.page-5-img img {
+ width: 780px;
+ height: 564px;
+}
+
+/* page 6 */
+
+.page-6-chef{
+  text-align: center;
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.page-6-chef h1{
+  font-size: 56px;
+  font-weight: 600;
+  }
+.page-6-container{
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.page-6-container .left-container{
+  width: 50%;
+}
+.page-6-container .left-container img{
+  height: 350px;
+  width: 350px;
+}
+
+.page-6-container .right-container{
+  width: 50%;
+  max-width: 40%;
+  text-align: start;
+}
+.page-6-container .right-container h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+.page-6-container .right-container h3{
+  font-size: 24px;
+  font-weight: 300;
+  color: #de5f17;
+  margin-top: 10px;
+}
+.page-6-container .right-container ul li{
+  /* list-style: none; */
+  margin-top: 10px;
+  list-style: square;
+  font-size: 26;
+  font-weight: 400;
+  line-height: 34px;
+}
+.hash-btn{
+  
+  border: 3px solid #de5f17;
+  height: 73px;
+  width: 406px;
+  border-radius: 45px;
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+.hash-btn h5{
+  padding-top: 4%;
+  font-size: 23px;
+  font-weight: 400;
+}
+.footer{
+  background-color: rgba(60, 188, 180, 0.83);
+  color: rgba(255, 255, 255, 0.753);
+height: 25vh;
+}
+.footer-container{
+  width: 100%;
+  padding: 2% 2.4%;
+}
+.footer h3{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0.6%;
+}
+.footer p{
+  padding-top: 0.2%;
+  max-width: 40%;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.753);
+}
+.footer-container span{
+  color: rgba(20, 20, 20, 0.818);
 }

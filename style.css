@@ -120,6 +120,9 @@ body {
   -o-border-radius: 1.875rem;
 }
 
+#try-btn:hover{
+  cursor: pointer;
+}
 /* Page 2 Section */
 
 .page-2-section {

@@ -14,6 +14,7 @@
     />
   </head>
   <body>
+    <div class="cursor"></div>
     <div class="container">
       <!-- Nav-Bar -->
       <div class="navbar">
@@ -135,7 +136,9 @@
     <h4>Total Price :</h4>
       </div>
       <div id="page-4-big-btn-container" >
-        <input id="page-4-big-btn" type="button" value="Order Now">
+        <!-- <form action="gogle.com"> -->
+          <input id="page-4-big-btn" type="submit" onclick="document.location.href = 'tel:919968875335'" value="Order Now">
+        <!-- </form> -->
       </div>
 
     </div>
@@ -176,13 +179,26 @@
         </div>
       </div>
       <div class="footer">
-        <div class="footer-container">
+        <class class="footer-container">
         <h3>just<span>Food</span></h3>
         <p>© 2015-2021 Justfood - proper nutrition with delivery</p>
         <p>By specifying the phone number on the site, you agree to the terms of the offer agreement and  privacy policy</p>
+      
       </div>
+      
       </div>
 
     </div>
+    <script>
+      let cursor = document.querySelector('.cursor');
+      let fpage = document.querySelector(".first-page");
+      
+      fpage.addEventListener('mousemove',(e)=>{
+        cursor.setAttribute('style',"display: block; top: "+(e.pageY-16)+"px; left: "+(e.pageX-16)+"px;");  
+      })
+      fpage.addEventListener('mouseout',(e)=>{
+        cursor.setAttribute('style',"display: none;");
+      })
+    </script>
   </body>
 </html>

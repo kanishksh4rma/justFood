@@ -504,3 +504,22 @@ body::-webkit-scrollbar-thumb {
   outline: none;
 }
 
+
+.cursor{
+  color: transparent;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 3px solid #de5f17;
+  display: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition-duration:100ms;
+  transition-timing-function:ease-out;
+  
+}
+
